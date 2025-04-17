@@ -27,7 +27,8 @@ export default async function handler(req, res) {
               {
                 email,
                 first_name,
-                last_name
+                last_name,
+                consent: ['EMAIL']
               }
             ]
           }
